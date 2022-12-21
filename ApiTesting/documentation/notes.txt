@@ -1,0 +1,12 @@
+API Testing Key Points:
+- Validations
+  a. Http Status Codes
+  b. Get Complete Response Body
+  c. Get Content Type
+  d. use Assertions to Validate.
+  e. extract the response body 
+  f. handle dynamic session id
+  g. data driven testing for mutiple requests
+  h. Type of request to handle (GET, POST, PUT and Delete)
+  i. Contains text and not contain text from response body
+  

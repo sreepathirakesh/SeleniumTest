@@ -1,0 +1,474 @@
+2019-08-11 10:15:04,055 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://reqres.in:443
+2019-08-11 10:15:04,164 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to reqres.in:443
+2019-08-11 10:15:04,772 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+2019-08-11 10:15:04,778 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2019-08-11 10:15:04,778 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+2019-08-11 10:15:04,780 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+2019-08-11 10:15:04,781 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+2019-08-11 10:15:04,782 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /api/users?page=2 HTTP/1.1
+2019-08-11 10:15:04,783 [DEBUG] org.apache.http.wire  -  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2019-08-11 10:15:04,788 [DEBUG] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+2019-08-11 10:15:04,788 [DEBUG] org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+2019-08-11 10:15:04,788 [DEBUG] org.apache.http.wire  -  >> "Host: reqres.in[\r][\n]"
+2019-08-11 10:15:04,788 [DEBUG] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-11 10:15:04,789 [DEBUG] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_211)[\r][\n]"
+2019-08-11 10:15:04,789 [DEBUG] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-11 10:15:04,789 [DEBUG] org.apache.http.wire  -  >> "[\r][\n]"
+2019-08-11 10:15:04,789 [DEBUG] org.apache.http.headers  - >> GET /api/users?page=2 HTTP/1.1
+2019-08-11 10:15:04,790 [DEBUG] org.apache.http.headers  - >> Accept: */*
+2019-08-11 10:15:04,790 [DEBUG] org.apache.http.headers  - >> Content-Length: 0
+2019-08-11 10:15:04,790 [DEBUG] org.apache.http.headers  - >> Host: reqres.in
+2019-08-11 10:15:04,790 [DEBUG] org.apache.http.headers  - >> Connection: Keep-Alive
+2019-08-11 10:15:04,790 [DEBUG] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_211)
+2019-08-11 10:15:04,791 [DEBUG] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+2019-08-11 10:15:04,818 [DEBUG] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-11 10:15:04,825 [DEBUG] org.apache.http.wire  -  << "Date: Sun, 11 Aug 2019 09:15:04 GMT[\r][\n]"
+2019-08-11 10:15:04,826 [DEBUG] org.apache.http.wire  -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-08-11 10:15:04,826 [DEBUG] org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-11 10:15:04,826 [DEBUG] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+2019-08-11 10:15:04,826 [DEBUG] org.apache.http.wire  -  << "Set-Cookie: __cfduid=dfe026fa761cdcd434323970be052cab51565514904; expires=Mon, 10-Aug-20 09:15:04 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-08-11 10:15:04,826 [DEBUG] org.apache.http.wire  -  << "X-Powered-By: Express[\r][\n]"
+2019-08-11 10:15:04,826 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-11 10:15:04,827 [DEBUG] org.apache.http.wire  -  << "Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"[\r][\n]"
+2019-08-11 10:15:04,827 [DEBUG] org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+2019-08-11 10:15:04,827 [DEBUG] org.apache.http.wire  -  << "CF-Cache-Status: HIT[\r][\n]"
+2019-08-11 10:15:04,827 [DEBUG] org.apache.http.wire  -  << "Age: 2837[\r][\n]"
+2019-08-11 10:15:04,828 [DEBUG] org.apache.http.wire  -  << "Expires: Sun, 11 Aug 2019 13:15:04 GMT[\r][\n]"
+2019-08-11 10:15:04,828 [DEBUG] org.apache.http.wire  -  << "Cache-Control: public, max-age=14400[\r][\n]"
+2019-08-11 10:15:04,828 [DEBUG] org.apache.http.wire  -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-08-11 10:15:04,829 [DEBUG] org.apache.http.wire  -  << "Vary: Accept-Encoding[\r][\n]"
+2019-08-11 10:15:04,829 [DEBUG] org.apache.http.wire  -  << "Server: cloudflare[\r][\n]"
+2019-08-11 10:15:04,829 [DEBUG] org.apache.http.wire  -  << "CF-RAY: 50491a594e31c971-LHR[\r][\n]"
+2019-08-11 10:15:04,829 [DEBUG] org.apache.http.wire  -  << "Content-Encoding: gzip[\r][\n]"
+2019-08-11 10:15:04,829 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:04,832 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+2019-08-11 10:15:04,833 [DEBUG] org.apache.http.headers  - << HTTP/1.1 200 OK
+2019-08-11 10:15:04,833 [DEBUG] org.apache.http.headers  - << Date: Sun, 11 Aug 2019 09:15:04 GMT
+2019-08-11 10:15:04,833 [DEBUG] org.apache.http.headers  - << Content-Type: application/json; charset=utf-8
+2019-08-11 10:15:04,833 [DEBUG] org.apache.http.headers  - << Transfer-Encoding: chunked
+2019-08-11 10:15:04,833 [DEBUG] org.apache.http.headers  - << Connection: keep-alive
+2019-08-11 10:15:04,833 [DEBUG] org.apache.http.headers  - << Set-Cookie: __cfduid=dfe026fa761cdcd434323970be052cab51565514904; expires=Mon, 10-Aug-20 09:15:04 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-08-11 10:15:04,833 [DEBUG] org.apache.http.headers  - << X-Powered-By: Express
+2019-08-11 10:15:04,833 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+2019-08-11 10:15:04,834 [DEBUG] org.apache.http.headers  - << Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"
+2019-08-11 10:15:04,834 [DEBUG] org.apache.http.headers  - << Via: 1.1 vegur
+2019-08-11 10:15:04,834 [DEBUG] org.apache.http.headers  - << CF-Cache-Status: HIT
+2019-08-11 10:15:04,848 [DEBUG] org.apache.http.headers  - << Age: 2837
+2019-08-11 10:15:04,848 [DEBUG] org.apache.http.headers  - << Expires: Sun, 11 Aug 2019 13:15:04 GMT
+2019-08-11 10:15:04,848 [DEBUG] org.apache.http.headers  - << Cache-Control: public, max-age=14400
+2019-08-11 10:15:04,848 [DEBUG] org.apache.http.headers  - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-08-11 10:15:04,849 [DEBUG] org.apache.http.headers  - << Vary: Accept-Encoding
+2019-08-11 10:15:04,849 [DEBUG] org.apache.http.headers  - << Server: cloudflare
+2019-08-11 10:15:04,849 [DEBUG] org.apache.http.headers  - << CF-RAY: 50491a594e31c971-LHR
+2019-08-11 10:15:04,849 [DEBUG] org.apache.http.headers  - << Content-Encoding: gzip
+2019-08-11 10:15:04,876 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+2019-08-11 10:15:04,956 [DEBUG] com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+2019-08-11 10:15:04,958 [DEBUG] org.apache.http.wire  -  << "f9[\r][\n]"
+2019-08-11 10:15:04,959 [DEBUG] org.apache.http.wire  -  << "[0x1f]"
+2019-08-11 10:15:04,959 [DEBUG] org.apache.http.wire  -  << "[0x8b]"
+2019-08-11 10:15:04,959 [DEBUG] org.apache.http.wire  -  << "[0x8]"
+2019-08-11 10:15:04,959 [DEBUG] org.apache.http.wire  -  << "[0x0]"
+2019-08-11 10:15:04,959 [DEBUG] org.apache.http.wire  -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-08-11 10:15:04,959 [DEBUG] com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-11 10:15:05,196 [DEBUG] org.apache.http.wire  -  << "[0xa5][0xce]MK[0x3]1[0x10][0x6][0xe0][0xff]2[0xe7][0x90][0xd0][0xad][0x8a][0xe4]$[0x88][0xe0][0xc5][0x8b][0xf4]&R[0xc6]t[0xba][0x9b][0x92]d[0xb6][0x93]q[0x8b][0x96][0xfe]wqWX[0xa8][0xe8][0xa5][0x97]a[0xbe]^x[0x8e][0xd0]cK[0xe0][0x1b][0x3]=[0xc9]z[0x1a][0x96][0x6][0x94][0x15][0x13][0xf8]E[0xf3][0xd3][0x8e][0x97][\n]"
+2019-08-11 10:15:05,197 [DEBUG] org.apache.http.wire  -  << "[0xfe][0xca][0xc0][0x6][0x15][0xc1][0xbf][0x1c]!n[0xc6][0x99]2[0xc6][0x4][0x1e]h [0xdb]q[0xd2];[0xa1][0xbd]P[0xb5][0xb1][0x80][0x81]m[0x94][0xaa][0xeb][0x82][0x99][0xc0][0xc3][0xc3]@` [0xe1][0xbc]y[0xe4][0xa4]`[0x0][0x7]T[0x14][0xf0][0xd0][0xa9][0xf6][0xd5];W[0x97][0x16]3~r[0xc1]C[0xb5][0x81][0xb3]{[0x8f][[0xc]T[0xdd]T[0xf5][0x10]UI\F[0x9],[0x98][0xa3]Pu[0x8b][0xe6][0xd6][0xee][0xfa][0x16]Nf[0xa2]][0xcf][0xb4][0xd0][0xa1]$[0xaa]6[0xb3]H[0xac][0x3][0xef][0xa7][0xbf]3[0xe4][0xd3][0x98][0xba][0x80]Y[0x95][0xfa][0x8e]Jf.[0xbf][0x94]7[0xb3]R[0x5][0x3]}X[0xc1][0xcc][0xff][0x18]W[0xe3][0xd7][0x19][0xf1][0xf9];s[0x81][0xf0]-[0xb6][0x19]K[0xe8]x[0xf6][0xbd][0x9e][0xbe][0x0]]zu[0xb8][0x1c][0x2][0x0][0x0]"
+2019-08-11 10:15:05,201 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:05,201 [DEBUG] org.apache.http.wire  -  << "0[\r][\n]"
+2019-08-11 10:15:05,201 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:05,202 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2679311f
+2019-08-11 10:15:05,202 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
+2019-08-11 10:15:05,276 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://reqres.in:443
+2019-08-11 10:15:05,277 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to reqres.in:443
+2019-08-11 10:15:05,466 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+2019-08-11 10:15:05,467 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2019-08-11 10:15:05,467 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+2019-08-11 10:15:05,467 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+2019-08-11 10:15:05,467 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+2019-08-11 10:15:05,468 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /api/users?page=2 HTTP/1.1
+2019-08-11 10:15:05,468 [DEBUG] org.apache.http.wire  -  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2019-08-11 10:15:05,469 [DEBUG] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+2019-08-11 10:15:05,469 [DEBUG] org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+2019-08-11 10:15:05,469 [DEBUG] org.apache.http.wire  -  >> "Host: reqres.in[\r][\n]"
+2019-08-11 10:15:05,469 [DEBUG] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-11 10:15:05,469 [DEBUG] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_211)[\r][\n]"
+2019-08-11 10:15:05,470 [DEBUG] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-11 10:15:05,470 [DEBUG] org.apache.http.wire  -  >> "[\r][\n]"
+2019-08-11 10:15:05,470 [DEBUG] org.apache.http.headers  - >> GET /api/users?page=2 HTTP/1.1
+2019-08-11 10:15:05,470 [DEBUG] org.apache.http.headers  - >> Accept: */*
+2019-08-11 10:15:05,470 [DEBUG] org.apache.http.headers  - >> Content-Length: 0
+2019-08-11 10:15:05,470 [DEBUG] org.apache.http.headers  - >> Host: reqres.in
+2019-08-11 10:15:05,470 [DEBUG] org.apache.http.headers  - >> Connection: Keep-Alive
+2019-08-11 10:15:05,471 [DEBUG] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_211)
+2019-08-11 10:15:05,471 [DEBUG] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+2019-08-11 10:15:05,502 [DEBUG] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-11 10:15:05,502 [DEBUG] org.apache.http.wire  -  << "Date: Sun, 11 Aug 2019 09:15:05 GMT[\r][\n]"
+2019-08-11 10:15:05,503 [DEBUG] org.apache.http.wire  -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-08-11 10:15:05,503 [DEBUG] org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-11 10:15:05,503 [DEBUG] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+2019-08-11 10:15:05,503 [DEBUG] org.apache.http.wire  -  << "Set-Cookie: __cfduid=d6c212a690e330ce0063936a3b76fa4a21565514905; expires=Mon, 10-Aug-20 09:15:05 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-08-11 10:15:05,503 [DEBUG] org.apache.http.wire  -  << "X-Powered-By: Express[\r][\n]"
+2019-08-11 10:15:05,503 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-11 10:15:05,504 [DEBUG] org.apache.http.wire  -  << "Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"[\r][\n]"
+2019-08-11 10:15:05,504 [DEBUG] org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+2019-08-11 10:15:05,504 [DEBUG] org.apache.http.wire  -  << "CF-Cache-Status: HIT[\r][\n]"
+2019-08-11 10:15:05,504 [DEBUG] org.apache.http.wire  -  << "Age: 2838[\r][\n]"
+2019-08-11 10:15:05,504 [DEBUG] org.apache.http.wire  -  << "Expires: Sun, 11 Aug 2019 13:15:05 GMT[\r][\n]"
+2019-08-11 10:15:05,504 [DEBUG] org.apache.http.wire  -  << "Cache-Control: public, max-age=14400[\r][\n]"
+2019-08-11 10:15:05,505 [DEBUG] org.apache.http.wire  -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-08-11 10:15:05,505 [DEBUG] org.apache.http.wire  -  << "Vary: Accept-Encoding[\r][\n]"
+2019-08-11 10:15:05,505 [DEBUG] org.apache.http.wire  -  << "Server: cloudflare[\r][\n]"
+2019-08-11 10:15:05,505 [DEBUG] org.apache.http.wire  -  << "CF-RAY: 50491a5d8d6a6a29-LHR[\r][\n]"
+2019-08-11 10:15:05,506 [DEBUG] org.apache.http.wire  -  << "Content-Encoding: gzip[\r][\n]"
+2019-08-11 10:15:05,506 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:05,506 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+2019-08-11 10:15:05,506 [DEBUG] org.apache.http.headers  - << HTTP/1.1 200 OK
+2019-08-11 10:15:05,506 [DEBUG] org.apache.http.headers  - << Date: Sun, 11 Aug 2019 09:15:05 GMT
+2019-08-11 10:15:05,507 [DEBUG] org.apache.http.headers  - << Content-Type: application/json; charset=utf-8
+2019-08-11 10:15:05,507 [DEBUG] org.apache.http.headers  - << Transfer-Encoding: chunked
+2019-08-11 10:15:05,508 [DEBUG] org.apache.http.headers  - << Connection: keep-alive
+2019-08-11 10:15:05,508 [DEBUG] org.apache.http.headers  - << Set-Cookie: __cfduid=d6c212a690e330ce0063936a3b76fa4a21565514905; expires=Mon, 10-Aug-20 09:15:05 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-08-11 10:15:05,508 [DEBUG] org.apache.http.headers  - << X-Powered-By: Express
+2019-08-11 10:15:05,508 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+2019-08-11 10:15:05,508 [DEBUG] org.apache.http.headers  - << Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"
+2019-08-11 10:15:05,508 [DEBUG] org.apache.http.headers  - << Via: 1.1 vegur
+2019-08-11 10:15:05,508 [DEBUG] org.apache.http.headers  - << CF-Cache-Status: HIT
+2019-08-11 10:15:05,508 [DEBUG] org.apache.http.headers  - << Age: 2838
+2019-08-11 10:15:05,508 [DEBUG] org.apache.http.headers  - << Expires: Sun, 11 Aug 2019 13:15:05 GMT
+2019-08-11 10:15:05,509 [DEBUG] org.apache.http.headers  - << Cache-Control: public, max-age=14400
+2019-08-11 10:15:05,509 [DEBUG] org.apache.http.headers  - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-08-11 10:15:05,509 [DEBUG] org.apache.http.headers  - << Vary: Accept-Encoding
+2019-08-11 10:15:05,509 [DEBUG] org.apache.http.headers  - << Server: cloudflare
+2019-08-11 10:15:05,509 [DEBUG] org.apache.http.headers  - << CF-RAY: 50491a5d8d6a6a29-LHR
+2019-08-11 10:15:05,509 [DEBUG] org.apache.http.headers  - << Content-Encoding: gzip
+2019-08-11 10:15:05,509 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+2019-08-11 10:15:05,510 [DEBUG] com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+2019-08-11 10:15:05,510 [DEBUG] org.apache.http.wire  -  << "f9[\r][\n]"
+2019-08-11 10:15:05,511 [DEBUG] org.apache.http.wire  -  << "[0x1f]"
+2019-08-11 10:15:05,511 [DEBUG] org.apache.http.wire  -  << "[0x8b]"
+2019-08-11 10:15:05,511 [DEBUG] org.apache.http.wire  -  << "[0x8]"
+2019-08-11 10:15:05,511 [DEBUG] org.apache.http.wire  -  << "[0x0]"
+2019-08-11 10:15:05,511 [DEBUG] org.apache.http.wire  -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-08-11 10:15:05,511 [DEBUG] com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-11 10:15:05,654 [DEBUG] org.apache.http.wire  -  << "[0xa5][0xce]MK[0x3]1[0x10][0x6][0xe0][0xff]2[0xe7][0x90][0xd0][0xad][0x8a][0xe4]$[0x88][0xe0][0xc5][0x8b][0xf4]&R[0xc6]t[0xba][0x9b][0x92]d[0xb6][0x93]q[0x8b][0x96][0xfe]wqWX[0xa8][0xe8][0xa5][0x97]a[0xbe]^x[0x8e][0xd0]cK[0xe0][0x1b][0x3]=[0xc9]z[0x1a][0x96][0x6][0x94][0x15][0x13][0xf8]E[0xf3][0xd3][0x8e][0x97][\n]"
+2019-08-11 10:15:05,654 [DEBUG] org.apache.http.wire  -  << "[0xfe][0xca][0xc0][0x6][0x15][0xc1][0xbf][0x1c]!n[0xc6][0x99]2[0xc6][0x4][0x1e]h [0xdb]q[0xd2];[0xa1][0xbd]P[0xb5][0xb1][0x80][0x81]m[0x94][0xaa][0xeb][0x82][0x99][0xc0][0xc3][0xc3]@` [0xe1][0xbc]y[0xe4][0xa4]`[0x0][0x7]T[0x14][0xf0][0xd0][0xa9][0xf6][0xd5];W[0x97][0x16]3~r[0xc1]C[0xb5][0x81][0xb3]{[0x8f][[0xc]T[0xdd]T[0xf5][0x10]UI\F[0x9],[0x98][0xa3]Pu[0x8b][0xe6][0xd6][0xee][0xfa][0x16]Nf[0xa2]][0xcf][0xb4][0xd0][0xa1]$[0xaa]6[0xb3]H[0xac][0x3][0xef][0xa7][0xbf]3[0xe4][0xd3][0x98][0xba][0x80]Y[0x95][0xfa][0x8e]Jf.[0xbf][0x94]7[0xb3]R[0x5][0x3]}X[0xc1][0xcc][0xff][0x18]W[0xe3][0xd7][0x19][0xf1][0xf9];s[0x81][0xf0]-[0xb6][0x19]K[0xe8]x[0xf6][0xbd][0x9e][0xbe][0x0]]zu[0xb8][0x1c][0x2][0x0][0x0]"
+2019-08-11 10:15:05,655 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:05,656 [DEBUG] org.apache.http.wire  -  << "0[\r][\n]"
+2019-08-11 10:15:05,656 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:05,656 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@616b241a
+2019-08-11 10:15:05,656 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
+2019-08-11 10:15:08,080 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://reqres.in:443
+2019-08-11 10:15:08,080 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to reqres.in:443
+2019-08-11 10:15:08,248 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+2019-08-11 10:15:08,248 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2019-08-11 10:15:08,248 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+2019-08-11 10:15:08,248 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+2019-08-11 10:15:08,248 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+2019-08-11 10:15:08,249 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /api/users?page=2 HTTP/1.1
+2019-08-11 10:15:08,249 [DEBUG] org.apache.http.wire  -  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2019-08-11 10:15:08,249 [DEBUG] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+2019-08-11 10:15:08,249 [DEBUG] org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+2019-08-11 10:15:08,249 [DEBUG] org.apache.http.wire  -  >> "Host: reqres.in[\r][\n]"
+2019-08-11 10:15:08,250 [DEBUG] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-11 10:15:08,250 [DEBUG] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_211)[\r][\n]"
+2019-08-11 10:15:08,250 [DEBUG] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-11 10:15:08,250 [DEBUG] org.apache.http.wire  -  >> "[\r][\n]"
+2019-08-11 10:15:08,250 [DEBUG] org.apache.http.headers  - >> GET /api/users?page=2 HTTP/1.1
+2019-08-11 10:15:08,250 [DEBUG] org.apache.http.headers  - >> Accept: */*
+2019-08-11 10:15:08,251 [DEBUG] org.apache.http.headers  - >> Content-Length: 0
+2019-08-11 10:15:08,251 [DEBUG] org.apache.http.headers  - >> Host: reqres.in
+2019-08-11 10:15:08,251 [DEBUG] org.apache.http.headers  - >> Connection: Keep-Alive
+2019-08-11 10:15:08,251 [DEBUG] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_211)
+2019-08-11 10:15:08,251 [DEBUG] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+2019-08-11 10:15:08,273 [DEBUG] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-11 10:15:08,274 [DEBUG] org.apache.http.wire  -  << "Date: Sun, 11 Aug 2019 09:15:07 GMT[\r][\n]"
+2019-08-11 10:15:08,274 [DEBUG] org.apache.http.wire  -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-08-11 10:15:08,274 [DEBUG] org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-11 10:15:08,274 [DEBUG] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+2019-08-11 10:15:08,274 [DEBUG] org.apache.http.wire  -  << "Set-Cookie: __cfduid=d72fa1f6bfdf54efa7b6f33c963b033df1565514907; expires=Mon, 10-Aug-20 09:15:07 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-08-11 10:15:08,274 [DEBUG] org.apache.http.wire  -  << "X-Powered-By: Express[\r][\n]"
+2019-08-11 10:15:08,274 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-11 10:15:08,274 [DEBUG] org.apache.http.wire  -  << "Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"[\r][\n]"
+2019-08-11 10:15:08,275 [DEBUG] org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+2019-08-11 10:15:08,275 [DEBUG] org.apache.http.wire  -  << "CF-Cache-Status: HIT[\r][\n]"
+2019-08-11 10:15:08,275 [DEBUG] org.apache.http.wire  -  << "Age: 2840[\r][\n]"
+2019-08-11 10:15:08,275 [DEBUG] org.apache.http.wire  -  << "Expires: Sun, 11 Aug 2019 13:15:07 GMT[\r][\n]"
+2019-08-11 10:15:08,275 [DEBUG] org.apache.http.wire  -  << "Cache-Control: public, max-age=14400[\r][\n]"
+2019-08-11 10:15:08,275 [DEBUG] org.apache.http.wire  -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-08-11 10:15:08,275 [DEBUG] org.apache.http.wire  -  << "Vary: Accept-Encoding[\r][\n]"
+2019-08-11 10:15:08,275 [DEBUG] org.apache.http.wire  -  << "Server: cloudflare[\r][\n]"
+2019-08-11 10:15:08,276 [DEBUG] org.apache.http.wire  -  << "CF-RAY: 50491a6eebffbc48-LHR[\r][\n]"
+2019-08-11 10:15:08,276 [DEBUG] org.apache.http.wire  -  << "Content-Encoding: gzip[\r][\n]"
+2019-08-11 10:15:08,276 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:08,276 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+2019-08-11 10:15:08,276 [DEBUG] org.apache.http.headers  - << HTTP/1.1 200 OK
+2019-08-11 10:15:08,276 [DEBUG] org.apache.http.headers  - << Date: Sun, 11 Aug 2019 09:15:07 GMT
+2019-08-11 10:15:08,276 [DEBUG] org.apache.http.headers  - << Content-Type: application/json; charset=utf-8
+2019-08-11 10:15:08,276 [DEBUG] org.apache.http.headers  - << Transfer-Encoding: chunked
+2019-08-11 10:15:08,276 [DEBUG] org.apache.http.headers  - << Connection: keep-alive
+2019-08-11 10:15:08,276 [DEBUG] org.apache.http.headers  - << Set-Cookie: __cfduid=d72fa1f6bfdf54efa7b6f33c963b033df1565514907; expires=Mon, 10-Aug-20 09:15:07 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-08-11 10:15:08,277 [DEBUG] org.apache.http.headers  - << X-Powered-By: Express
+2019-08-11 10:15:08,277 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+2019-08-11 10:15:08,277 [DEBUG] org.apache.http.headers  - << Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"
+2019-08-11 10:15:08,277 [DEBUG] org.apache.http.headers  - << Via: 1.1 vegur
+2019-08-11 10:15:08,277 [DEBUG] org.apache.http.headers  - << CF-Cache-Status: HIT
+2019-08-11 10:15:08,277 [DEBUG] org.apache.http.headers  - << Age: 2840
+2019-08-11 10:15:08,277 [DEBUG] org.apache.http.headers  - << Expires: Sun, 11 Aug 2019 13:15:07 GMT
+2019-08-11 10:15:08,278 [DEBUG] org.apache.http.headers  - << Cache-Control: public, max-age=14400
+2019-08-11 10:15:08,278 [DEBUG] org.apache.http.headers  - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-08-11 10:15:08,278 [DEBUG] org.apache.http.headers  - << Vary: Accept-Encoding
+2019-08-11 10:15:08,278 [DEBUG] org.apache.http.headers  - << Server: cloudflare
+2019-08-11 10:15:08,278 [DEBUG] org.apache.http.headers  - << CF-RAY: 50491a6eebffbc48-LHR
+2019-08-11 10:15:08,278 [DEBUG] org.apache.http.headers  - << Content-Encoding: gzip
+2019-08-11 10:15:08,279 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+2019-08-11 10:15:08,280 [DEBUG] com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+2019-08-11 10:15:08,281 [DEBUG] org.apache.http.wire  -  << "f9[\r][\n]"
+2019-08-11 10:15:08,281 [DEBUG] org.apache.http.wire  -  << "[0x1f]"
+2019-08-11 10:15:08,281 [DEBUG] org.apache.http.wire  -  << "[0x8b]"
+2019-08-11 10:15:08,281 [DEBUG] org.apache.http.wire  -  << "[0x8]"
+2019-08-11 10:15:08,281 [DEBUG] org.apache.http.wire  -  << "[0x0]"
+2019-08-11 10:15:08,282 [DEBUG] org.apache.http.wire  -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-08-11 10:15:08,282 [DEBUG] com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-11 10:15:08,291 [DEBUG] org.apache.http.wire  -  << "[0xa5][0xce]MK[0x3]1[0x10][0x6][0xe0][0xff]2[0xe7][0x90][0xd0][0xad][0x8a][0xe4]$[0x88][0xe0][0xc5][0x8b][0xf4]&R[0xc6]t[0xba][0x9b][0x92]d[0xb6][0x93]q[0x8b][0x96][0xfe]wqWX[0xa8][0xe8][0xa5][0x97]a[0xbe]^x[0x8e][0xd0]cK[0xe0][0x1b][0x3]=[0xc9]z[0x1a][0x96][0x6][0x94][0x15][0x13][0xf8]E[0xf3][0xd3][0x8e][0x97][\n]"
+2019-08-11 10:15:08,292 [DEBUG] org.apache.http.wire  -  << "[0xfe][0xca][0xc0][0x6][0x15][0xc1][0xbf][0x1c]!n[0xc6][0x99]2[0xc6][0x4][0x1e]h [0xdb]q[0xd2];[0xa1][0xbd]P[0xb5][0xb1][0x80][0x81]m[0x94][0xaa][0xeb][0x82][0x99][0xc0][0xc3][0xc3]@` [0xe1][0xbc]y[0xe4][0xa4]`[0x0][0x7]T[0x14][0xf0][0xd0][0xa9][0xf6][0xd5];W[0x97][0x16]3~r[0xc1]C[0xb5][0x81][0xb3]{[0x8f][[0xc]T[0xdd]T[0xf5][0x10]UI\F[0x9],[0x98][0xa3]Pu[0x8b][0xe6][0xd6][0xee][0xfa][0x16]Nf[0xa2]][0xcf][0xb4][0xd0][0xa1]$[0xaa]6[0xb3]H[0xac][0x3][0xef][0xa7][0xbf]3[0xe4][0xd3][0x98][0xba][0x80]Y[0x95][0xfa][0x8e]Jf.[0xbf][0x94]7[0xb3]R[0x5][0x3]}X[0xc1][0xcc][0xff][0x18]W[0xe3][0xd7][0x19][0xf1][0xf9];s[0x81][0xf0]-[0xb6][0x19]K[0xe8]x[0xf6][0xbd][0x9e][0xbe][0x0]]zu[0xb8][0x1c][0x2][0x0][0x0]"
+2019-08-11 10:15:08,292 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:08,293 [DEBUG] org.apache.http.wire  -  << "0[\r][\n]"
+2019-08-11 10:15:08,293 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:08,293 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@62db0521
+2019-08-11 10:15:08,293 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
+2019-08-11 10:15:09,382 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://reqres.in:443
+2019-08-11 10:15:09,382 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to reqres.in:443
+2019-08-11 10:15:09,563 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+2019-08-11 10:15:09,563 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2019-08-11 10:15:09,563 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+2019-08-11 10:15:09,563 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+2019-08-11 10:15:09,563 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+2019-08-11 10:15:09,563 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /api/users?page=2 HTTP/1.1
+2019-08-11 10:15:09,564 [DEBUG] org.apache.http.wire  -  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2019-08-11 10:15:09,564 [DEBUG] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+2019-08-11 10:15:09,564 [DEBUG] org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+2019-08-11 10:15:09,564 [DEBUG] org.apache.http.wire  -  >> "Host: reqres.in[\r][\n]"
+2019-08-11 10:15:09,564 [DEBUG] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-11 10:15:09,564 [DEBUG] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_211)[\r][\n]"
+2019-08-11 10:15:09,565 [DEBUG] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-11 10:15:09,565 [DEBUG] org.apache.http.wire  -  >> "[\r][\n]"
+2019-08-11 10:15:09,565 [DEBUG] org.apache.http.headers  - >> GET /api/users?page=2 HTTP/1.1
+2019-08-11 10:15:09,565 [DEBUG] org.apache.http.headers  - >> Accept: */*
+2019-08-11 10:15:09,565 [DEBUG] org.apache.http.headers  - >> Content-Length: 0
+2019-08-11 10:15:09,565 [DEBUG] org.apache.http.headers  - >> Host: reqres.in
+2019-08-11 10:15:09,565 [DEBUG] org.apache.http.headers  - >> Connection: Keep-Alive
+2019-08-11 10:15:09,565 [DEBUG] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_211)
+2019-08-11 10:15:09,565 [DEBUG] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+2019-08-11 10:15:09,595 [DEBUG] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-11 10:15:09,595 [DEBUG] org.apache.http.wire  -  << "Date: Sun, 11 Aug 2019 09:15:09 GMT[\r][\n]"
+2019-08-11 10:15:09,596 [DEBUG] org.apache.http.wire  -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-08-11 10:15:09,596 [DEBUG] org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-11 10:15:09,596 [DEBUG] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+2019-08-11 10:15:09,596 [DEBUG] org.apache.http.wire  -  << "Set-Cookie: __cfduid=d5ad845ff8dcd7154a30696e3c66654f61565514909; expires=Mon, 10-Aug-20 09:15:09 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-08-11 10:15:09,596 [DEBUG] org.apache.http.wire  -  << "X-Powered-By: Express[\r][\n]"
+2019-08-11 10:15:09,597 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-11 10:15:09,597 [DEBUG] org.apache.http.wire  -  << "Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"[\r][\n]"
+2019-08-11 10:15:09,597 [DEBUG] org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+2019-08-11 10:15:09,597 [DEBUG] org.apache.http.wire  -  << "CF-Cache-Status: HIT[\r][\n]"
+2019-08-11 10:15:09,598 [DEBUG] org.apache.http.wire  -  << "Age: 2842[\r][\n]"
+2019-08-11 10:15:09,598 [DEBUG] org.apache.http.wire  -  << "Expires: Sun, 11 Aug 2019 13:15:09 GMT[\r][\n]"
+2019-08-11 10:15:09,598 [DEBUG] org.apache.http.wire  -  << "Cache-Control: public, max-age=14400[\r][\n]"
+2019-08-11 10:15:09,598 [DEBUG] org.apache.http.wire  -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-08-11 10:15:09,598 [DEBUG] org.apache.http.wire  -  << "Vary: Accept-Encoding[\r][\n]"
+2019-08-11 10:15:09,598 [DEBUG] org.apache.http.wire  -  << "Server: cloudflare[\r][\n]"
+2019-08-11 10:15:09,599 [DEBUG] org.apache.http.wire  -  << "CF-RAY: 50491a7728f8dc47-LHR[\r][\n]"
+2019-08-11 10:15:09,599 [DEBUG] org.apache.http.wire  -  << "Content-Encoding: gzip[\r][\n]"
+2019-08-11 10:15:09,599 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:09,599 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+2019-08-11 10:15:09,599 [DEBUG] org.apache.http.headers  - << HTTP/1.1 200 OK
+2019-08-11 10:15:09,599 [DEBUG] org.apache.http.headers  - << Date: Sun, 11 Aug 2019 09:15:09 GMT
+2019-08-11 10:15:09,599 [DEBUG] org.apache.http.headers  - << Content-Type: application/json; charset=utf-8
+2019-08-11 10:15:09,600 [DEBUG] org.apache.http.headers  - << Transfer-Encoding: chunked
+2019-08-11 10:15:09,600 [DEBUG] org.apache.http.headers  - << Connection: keep-alive
+2019-08-11 10:15:09,600 [DEBUG] org.apache.http.headers  - << Set-Cookie: __cfduid=d5ad845ff8dcd7154a30696e3c66654f61565514909; expires=Mon, 10-Aug-20 09:15:09 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-08-11 10:15:09,600 [DEBUG] org.apache.http.headers  - << X-Powered-By: Express
+2019-08-11 10:15:09,600 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+2019-08-11 10:15:09,600 [DEBUG] org.apache.http.headers  - << Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"
+2019-08-11 10:15:09,600 [DEBUG] org.apache.http.headers  - << Via: 1.1 vegur
+2019-08-11 10:15:09,600 [DEBUG] org.apache.http.headers  - << CF-Cache-Status: HIT
+2019-08-11 10:15:09,600 [DEBUG] org.apache.http.headers  - << Age: 2842
+2019-08-11 10:15:09,601 [DEBUG] org.apache.http.headers  - << Expires: Sun, 11 Aug 2019 13:15:09 GMT
+2019-08-11 10:15:09,601 [DEBUG] org.apache.http.headers  - << Cache-Control: public, max-age=14400
+2019-08-11 10:15:09,601 [DEBUG] org.apache.http.headers  - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-08-11 10:15:09,601 [DEBUG] org.apache.http.headers  - << Vary: Accept-Encoding
+2019-08-11 10:15:09,601 [DEBUG] org.apache.http.headers  - << Server: cloudflare
+2019-08-11 10:15:09,601 [DEBUG] org.apache.http.headers  - << CF-RAY: 50491a7728f8dc47-LHR
+2019-08-11 10:15:09,601 [DEBUG] org.apache.http.headers  - << Content-Encoding: gzip
+2019-08-11 10:15:09,602 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+2019-08-11 10:15:09,603 [DEBUG] com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+2019-08-11 10:15:09,603 [DEBUG] org.apache.http.wire  -  << "f9[\r][\n]"
+2019-08-11 10:15:09,603 [DEBUG] org.apache.http.wire  -  << "[0x1f]"
+2019-08-11 10:15:09,603 [DEBUG] org.apache.http.wire  -  << "[0x8b]"
+2019-08-11 10:15:09,603 [DEBUG] org.apache.http.wire  -  << "[0x8]"
+2019-08-11 10:15:09,603 [DEBUG] org.apache.http.wire  -  << "[0x0]"
+2019-08-11 10:15:09,604 [DEBUG] org.apache.http.wire  -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-08-11 10:15:09,604 [DEBUG] com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-11 10:15:09,615 [DEBUG] org.apache.http.wire  -  << "[0xa5][0xce]MK[0x3]1[0x10][0x6][0xe0][0xff]2[0xe7][0x90][0xd0][0xad][0x8a][0xe4]$[0x88][0xe0][0xc5][0x8b][0xf4]&R[0xc6]t[0xba][0x9b][0x92]d[0xb6][0x93]q[0x8b][0x96][0xfe]wqWX[0xa8][0xe8][0xa5][0x97]a[0xbe]^x[0x8e][0xd0]cK[0xe0][0x1b][0x3]=[0xc9]z[0x1a][0x96][0x6][0x94][0x15][0x13][0xf8]E[0xf3][0xd3][0x8e][0x97][\n]"
+2019-08-11 10:15:09,615 [DEBUG] org.apache.http.wire  -  << "[0xfe][0xca][0xc0][0x6][0x15][0xc1][0xbf][0x1c]!n[0xc6][0x99]2[0xc6][0x4][0x1e]h [0xdb]q[0xd2];[0xa1][0xbd]P[0xb5][0xb1][0x80][0x81]m[0x94][0xaa][0xeb][0x82][0x99][0xc0][0xc3][0xc3]@` [0xe1][0xbc]y[0xe4][0xa4]`[0x0][0x7]T[0x14][0xf0][0xd0][0xa9][0xf6][0xd5];W[0x97][0x16]3~r[0xc1]C[0xb5][0x81][0xb3]{[0x8f][[0xc]T[0xdd]T[0xf5][0x10]UI\F[0x9],[0x98][0xa3]Pu[0x8b][0xe6][0xd6][0xee][0xfa][0x16]Nf[0xa2]][0xcf][0xb4][0xd0][0xa1]$[0xaa]6[0xb3]H[0xac][0x3][0xef][0xa7][0xbf]3[0xe4][0xd3][0x98][0xba][0x80]Y[0x95][0xfa][0x8e]Jf.[0xbf][0x94]7[0xb3]R[0x5][0x3]}X[0xc1][0xcc][0xff][0x18]W[0xe3][0xd7][0x19][0xf1][0xf9];s[0x81][0xf0]-[0xb6][0x19]K[0xe8]x[0xf6][0xbd][0x9e][0xbe][0x0]]zu[0xb8][0x1c][0x2][0x0][0x0]"
+2019-08-11 10:15:09,615 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:09,616 [DEBUG] org.apache.http.wire  -  << "0[\r][\n]"
+2019-08-11 10:15:09,616 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:09,616 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4867ab9f
+2019-08-11 10:15:09,616 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
+2019-08-11 10:15:10,670 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://reqres.in:443
+2019-08-11 10:15:10,670 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to reqres.in:443
+2019-08-11 10:15:10,840 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+2019-08-11 10:15:10,841 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2019-08-11 10:15:10,841 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+2019-08-11 10:15:10,841 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+2019-08-11 10:15:10,841 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+2019-08-11 10:15:10,841 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /api/users?page=2 HTTP/1.1
+2019-08-11 10:15:10,841 [DEBUG] org.apache.http.wire  -  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2019-08-11 10:15:10,841 [DEBUG] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+2019-08-11 10:15:10,841 [DEBUG] org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+2019-08-11 10:15:10,841 [DEBUG] org.apache.http.wire  -  >> "Host: reqres.in[\r][\n]"
+2019-08-11 10:15:10,842 [DEBUG] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-11 10:15:10,842 [DEBUG] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_211)[\r][\n]"
+2019-08-11 10:15:10,842 [DEBUG] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-11 10:15:10,842 [DEBUG] org.apache.http.wire  -  >> "[\r][\n]"
+2019-08-11 10:15:10,842 [DEBUG] org.apache.http.headers  - >> GET /api/users?page=2 HTTP/1.1
+2019-08-11 10:15:10,842 [DEBUG] org.apache.http.headers  - >> Accept: */*
+2019-08-11 10:15:10,842 [DEBUG] org.apache.http.headers  - >> Content-Length: 0
+2019-08-11 10:15:10,842 [DEBUG] org.apache.http.headers  - >> Host: reqres.in
+2019-08-11 10:15:10,842 [DEBUG] org.apache.http.headers  - >> Connection: Keep-Alive
+2019-08-11 10:15:10,842 [DEBUG] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_211)
+2019-08-11 10:15:10,842 [DEBUG] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+2019-08-11 10:15:10,871 [DEBUG] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-11 10:15:10,871 [DEBUG] org.apache.http.wire  -  << "Date: Sun, 11 Aug 2019 09:15:10 GMT[\r][\n]"
+2019-08-11 10:15:10,871 [DEBUG] org.apache.http.wire  -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-08-11 10:15:10,872 [DEBUG] org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-11 10:15:10,872 [DEBUG] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+2019-08-11 10:15:10,872 [DEBUG] org.apache.http.wire  -  << "Set-Cookie: __cfduid=d07c382e93c43168ad63d793282fe2e101565514910; expires=Mon, 10-Aug-20 09:15:10 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-08-11 10:15:10,872 [DEBUG] org.apache.http.wire  -  << "X-Powered-By: Express[\r][\n]"
+2019-08-11 10:15:10,872 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-11 10:15:10,872 [DEBUG] org.apache.http.wire  -  << "Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"[\r][\n]"
+2019-08-11 10:15:10,872 [DEBUG] org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+2019-08-11 10:15:10,872 [DEBUG] org.apache.http.wire  -  << "CF-Cache-Status: HIT[\r][\n]"
+2019-08-11 10:15:10,872 [DEBUG] org.apache.http.wire  -  << "Age: 2843[\r][\n]"
+2019-08-11 10:15:10,872 [DEBUG] org.apache.http.wire  -  << "Expires: Sun, 11 Aug 2019 13:15:10 GMT[\r][\n]"
+2019-08-11 10:15:10,872 [DEBUG] org.apache.http.wire  -  << "Cache-Control: public, max-age=14400[\r][\n]"
+2019-08-11 10:15:10,873 [DEBUG] org.apache.http.wire  -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-08-11 10:15:10,873 [DEBUG] org.apache.http.wire  -  << "Vary: Accept-Encoding[\r][\n]"
+2019-08-11 10:15:10,873 [DEBUG] org.apache.http.wire  -  << "Server: cloudflare[\r][\n]"
+2019-08-11 10:15:10,873 [DEBUG] org.apache.http.wire  -  << "CF-RAY: 50491a7f1fb5bba0-LHR[\r][\n]"
+2019-08-11 10:15:10,873 [DEBUG] org.apache.http.wire  -  << "Content-Encoding: gzip[\r][\n]"
+2019-08-11 10:15:10,873 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:10,873 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+2019-08-11 10:15:10,873 [DEBUG] org.apache.http.headers  - << HTTP/1.1 200 OK
+2019-08-11 10:15:10,873 [DEBUG] org.apache.http.headers  - << Date: Sun, 11 Aug 2019 09:15:10 GMT
+2019-08-11 10:15:10,873 [DEBUG] org.apache.http.headers  - << Content-Type: application/json; charset=utf-8
+2019-08-11 10:15:10,873 [DEBUG] org.apache.http.headers  - << Transfer-Encoding: chunked
+2019-08-11 10:15:10,873 [DEBUG] org.apache.http.headers  - << Connection: keep-alive
+2019-08-11 10:15:10,873 [DEBUG] org.apache.http.headers  - << Set-Cookie: __cfduid=d07c382e93c43168ad63d793282fe2e101565514910; expires=Mon, 10-Aug-20 09:15:10 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-08-11 10:15:10,873 [DEBUG] org.apache.http.headers  - << X-Powered-By: Express
+2019-08-11 10:15:10,873 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+2019-08-11 10:15:10,873 [DEBUG] org.apache.http.headers  - << Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"
+2019-08-11 10:15:10,874 [DEBUG] org.apache.http.headers  - << Via: 1.1 vegur
+2019-08-11 10:15:10,874 [DEBUG] org.apache.http.headers  - << CF-Cache-Status: HIT
+2019-08-11 10:15:10,874 [DEBUG] org.apache.http.headers  - << Age: 2843
+2019-08-11 10:15:10,874 [DEBUG] org.apache.http.headers  - << Expires: Sun, 11 Aug 2019 13:15:10 GMT
+2019-08-11 10:15:10,874 [DEBUG] org.apache.http.headers  - << Cache-Control: public, max-age=14400
+2019-08-11 10:15:10,874 [DEBUG] org.apache.http.headers  - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-08-11 10:15:10,874 [DEBUG] org.apache.http.headers  - << Vary: Accept-Encoding
+2019-08-11 10:15:10,874 [DEBUG] org.apache.http.headers  - << Server: cloudflare
+2019-08-11 10:15:10,874 [DEBUG] org.apache.http.headers  - << CF-RAY: 50491a7f1fb5bba0-LHR
+2019-08-11 10:15:10,874 [DEBUG] org.apache.http.headers  - << Content-Encoding: gzip
+2019-08-11 10:15:10,874 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+2019-08-11 10:15:10,875 [DEBUG] com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+2019-08-11 10:15:10,875 [DEBUG] org.apache.http.wire  -  << "f9[\r][\n]"
+2019-08-11 10:15:10,875 [DEBUG] org.apache.http.wire  -  << "[0x1f]"
+2019-08-11 10:15:10,875 [DEBUG] org.apache.http.wire  -  << "[0x8b]"
+2019-08-11 10:15:10,875 [DEBUG] org.apache.http.wire  -  << "[0x8]"
+2019-08-11 10:15:10,875 [DEBUG] org.apache.http.wire  -  << "[0x0]"
+2019-08-11 10:15:10,875 [DEBUG] org.apache.http.wire  -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-08-11 10:15:10,876 [DEBUG] com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-11 10:15:10,884 [DEBUG] org.apache.http.wire  -  << "[0xa5][0xce]MK[0x3]1[0x10][0x6][0xe0][0xff]2[0xe7][0x90][0xd0][0xad][0x8a][0xe4]$[0x88][0xe0][0xc5][0x8b][0xf4]&R[0xc6]t[0xba][0x9b][0x92]d[0xb6][0x93]q[0x8b][0x96][0xfe]wqWX[0xa8][0xe8][0xa5][0x97]a[0xbe]^x[0x8e][0xd0]cK[0xe0][0x1b][0x3]=[0xc9]z[0x1a][0x96][0x6][0x94][0x15][0x13][0xf8]E[0xf3][0xd3][0x8e][0x97][\n]"
+2019-08-11 10:15:10,885 [DEBUG] org.apache.http.wire  -  << "[0xfe][0xca][0xc0][0x6][0x15][0xc1][0xbf][0x1c]!n[0xc6][0x99]2[0xc6][0x4][0x1e]h [0xdb]q[0xd2];[0xa1][0xbd]P[0xb5][0xb1][0x80][0x81]m[0x94][0xaa][0xeb][0x82][0x99][0xc0][0xc3][0xc3]@` [0xe1][0xbc]y[0xe4][0xa4]`[0x0][0x7]T[0x14][0xf0][0xd0][0xa9][0xf6][0xd5];W[0x97][0x16]3~r[0xc1]C[0xb5][0x81][0xb3]{[0x8f][[0xc]T[0xdd]T[0xf5][0x10]UI\F[0x9],[0x98][0xa3]Pu[0x8b][0xe6][0xd6][0xee][0xfa][0x16]Nf[0xa2]][0xcf][0xb4][0xd0][0xa1]$[0xaa]6[0xb3]H[0xac][0x3][0xef][0xa7][0xbf]3[0xe4][0xd3][0x98][0xba][0x80]Y[0x95][0xfa][0x8e]Jf.[0xbf][0x94]7[0xb3]R[0x5][0x3]}X[0xc1][0xcc][0xff][0x18]W[0xe3][0xd7][0x19][0xf1][0xf9];s[0x81][0xf0]-[0xb6][0x19]K[0xe8]x[0xf6][0xbd][0x9e][0xbe][0x0]]zu[0xb8][0x1c][0x2][0x0][0x0]"
+2019-08-11 10:15:10,885 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:10,886 [DEBUG] org.apache.http.wire  -  << "0[\r][\n]"
+2019-08-11 10:15:10,886 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:10,886 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@57402ba1
+2019-08-11 10:15:10,886 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
+2019-08-11 10:15:11,958 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://reqres.in:443
+2019-08-11 10:15:11,958 [DEBUG] org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to reqres.in:443
+2019-08-11 10:15:12,123 [DEBUG] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+2019-08-11 10:15:12,123 [DEBUG] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+2019-08-11 10:15:12,123 [DEBUG] org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+2019-08-11 10:15:12,123 [DEBUG] org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+2019-08-11 10:15:12,123 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+2019-08-11 10:15:12,123 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Sending request: GET /api/users?page=2 HTTP/1.1
+2019-08-11 10:15:12,124 [DEBUG] org.apache.http.wire  -  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+2019-08-11 10:15:12,124 [DEBUG] org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+2019-08-11 10:15:12,124 [DEBUG] org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+2019-08-11 10:15:12,124 [DEBUG] org.apache.http.wire  -  >> "Host: reqres.in[\r][\n]"
+2019-08-11 10:15:12,124 [DEBUG] org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-11 10:15:12,124 [DEBUG] org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_211)[\r][\n]"
+2019-08-11 10:15:12,124 [DEBUG] org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-11 10:15:12,124 [DEBUG] org.apache.http.wire  -  >> "[\r][\n]"
+2019-08-11 10:15:12,124 [DEBUG] org.apache.http.headers  - >> GET /api/users?page=2 HTTP/1.1
+2019-08-11 10:15:12,124 [DEBUG] org.apache.http.headers  - >> Accept: */*
+2019-08-11 10:15:12,125 [DEBUG] org.apache.http.headers  - >> Content-Length: 0
+2019-08-11 10:15:12,125 [DEBUG] org.apache.http.headers  - >> Host: reqres.in
+2019-08-11 10:15:12,125 [DEBUG] org.apache.http.headers  - >> Connection: Keep-Alive
+2019-08-11 10:15:12,125 [DEBUG] org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_211)
+2019-08-11 10:15:12,125 [DEBUG] org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+2019-08-11 10:15:12,154 [DEBUG] org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-11 10:15:12,155 [DEBUG] org.apache.http.wire  -  << "Date: Sun, 11 Aug 2019 09:15:11 GMT[\r][\n]"
+2019-08-11 10:15:12,155 [DEBUG] org.apache.http.wire  -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2019-08-11 10:15:12,155 [DEBUG] org.apache.http.wire  -  << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-11 10:15:12,155 [DEBUG] org.apache.http.wire  -  << "Connection: keep-alive[\r][\n]"
+2019-08-11 10:15:12,155 [DEBUG] org.apache.http.wire  -  << "Set-Cookie: __cfduid=d9a747710666d25861e1e2e4d2e32df231565514911; expires=Mon, 10-Aug-20 09:15:11 GMT; path=/; domain=.reqres.in; HttpOnly; Secure[\r][\n]"
+2019-08-11 10:15:12,155 [DEBUG] org.apache.http.wire  -  << "X-Powered-By: Express[\r][\n]"
+2019-08-11 10:15:12,155 [DEBUG] org.apache.http.wire  -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-11 10:15:12,155 [DEBUG] org.apache.http.wire  -  << "Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"[\r][\n]"
+2019-08-11 10:15:12,156 [DEBUG] org.apache.http.wire  -  << "Via: 1.1 vegur[\r][\n]"
+2019-08-11 10:15:12,156 [DEBUG] org.apache.http.wire  -  << "CF-Cache-Status: HIT[\r][\n]"
+2019-08-11 10:15:12,156 [DEBUG] org.apache.http.wire  -  << "Age: 2844[\r][\n]"
+2019-08-11 10:15:12,156 [DEBUG] org.apache.http.wire  -  << "Expires: Sun, 11 Aug 2019 13:15:11 GMT[\r][\n]"
+2019-08-11 10:15:12,156 [DEBUG] org.apache.http.wire  -  << "Cache-Control: public, max-age=14400[\r][\n]"
+2019-08-11 10:15:12,156 [DEBUG] org.apache.http.wire  -  << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2019-08-11 10:15:12,156 [DEBUG] org.apache.http.wire  -  << "Vary: Accept-Encoding[\r][\n]"
+2019-08-11 10:15:12,156 [DEBUG] org.apache.http.wire  -  << "Server: cloudflare[\r][\n]"
+2019-08-11 10:15:12,156 [DEBUG] org.apache.http.wire  -  << "CF-RAY: 50491a872e3fce67-LHR[\r][\n]"
+2019-08-11 10:15:12,156 [DEBUG] org.apache.http.wire  -  << "Content-Encoding: gzip[\r][\n]"
+2019-08-11 10:15:12,156 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:12,157 [DEBUG] org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+2019-08-11 10:15:12,157 [DEBUG] org.apache.http.headers  - << HTTP/1.1 200 OK
+2019-08-11 10:15:12,157 [DEBUG] org.apache.http.headers  - << Date: Sun, 11 Aug 2019 09:15:11 GMT
+2019-08-11 10:15:12,157 [DEBUG] org.apache.http.headers  - << Content-Type: application/json; charset=utf-8
+2019-08-11 10:15:12,157 [DEBUG] org.apache.http.headers  - << Transfer-Encoding: chunked
+2019-08-11 10:15:12,157 [DEBUG] org.apache.http.headers  - << Connection: keep-alive
+2019-08-11 10:15:12,157 [DEBUG] org.apache.http.headers  - << Set-Cookie: __cfduid=d9a747710666d25861e1e2e4d2e32df231565514911; expires=Mon, 10-Aug-20 09:15:11 GMT; path=/; domain=.reqres.in; HttpOnly; Secure
+2019-08-11 10:15:12,157 [DEBUG] org.apache.http.headers  - << X-Powered-By: Express
+2019-08-11 10:15:12,157 [DEBUG] org.apache.http.headers  - << Access-Control-Allow-Origin: *
+2019-08-11 10:15:12,157 [DEBUG] org.apache.http.headers  - << Etag: W/"21c-V3l8h04l5/8zLV+i3u8GJo8G3Y8"
+2019-08-11 10:15:12,158 [DEBUG] org.apache.http.headers  - << Via: 1.1 vegur
+2019-08-11 10:15:12,158 [DEBUG] org.apache.http.headers  - << CF-Cache-Status: HIT
+2019-08-11 10:15:12,158 [DEBUG] org.apache.http.headers  - << Age: 2844
+2019-08-11 10:15:12,158 [DEBUG] org.apache.http.headers  - << Expires: Sun, 11 Aug 2019 13:15:11 GMT
+2019-08-11 10:15:12,158 [DEBUG] org.apache.http.headers  - << Cache-Control: public, max-age=14400
+2019-08-11 10:15:12,158 [DEBUG] org.apache.http.headers  - << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2019-08-11 10:15:12,158 [DEBUG] org.apache.http.headers  - << Vary: Accept-Encoding
+2019-08-11 10:15:12,158 [DEBUG] org.apache.http.headers  - << Server: cloudflare
+2019-08-11 10:15:12,158 [DEBUG] org.apache.http.headers  - << CF-RAY: 50491a872e3fce67-LHR
+2019-08-11 10:15:12,158 [DEBUG] org.apache.http.headers  - << Content-Encoding: gzip
+2019-08-11 10:15:12,159 [DEBUG] org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+2019-08-11 10:15:12,161 [DEBUG] com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json; charset=utf-8
+2019-08-11 10:15:12,161 [DEBUG] org.apache.http.wire  -  << "f9[\r][\n]"
+2019-08-11 10:15:12,161 [DEBUG] org.apache.http.wire  -  << "[0x1f]"
+2019-08-11 10:15:12,161 [DEBUG] org.apache.http.wire  -  << "[0x8b]"
+2019-08-11 10:15:12,161 [DEBUG] org.apache.http.wire  -  << "[0x8]"
+2019-08-11 10:15:12,161 [DEBUG] org.apache.http.wire  -  << "[0x0]"
+2019-08-11 10:15:12,162 [DEBUG] org.apache.http.wire  -  << "[0x0][0x0][0x0][0x0][0x0][0x3]"
+2019-08-11 10:15:12,162 [DEBUG] com.jayway.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-11 10:15:12,168 [DEBUG] org.apache.http.wire  -  << "[0xa5][0xce]MK[0x3]1[0x10][0x6][0xe0][0xff]2[0xe7][0x90][0xd0][0xad][0x8a][0xe4]$[0x88][0xe0][0xc5][0x8b][0xf4]&R[0xc6]t[0xba][0x9b][0x92]d[0xb6][0x93]q[0x8b][0x96][0xfe]wqWX[0xa8][0xe8][0xa5][0x97]a[0xbe]^x[0x8e][0xd0]cK[0xe0][0x1b][0x3]=[0xc9]z[0x1a][0x96][0x6][0x94][0x15][0x13][0xf8]E[0xf3][0xd3][0x8e][0x97][\n]"
+2019-08-11 10:15:12,168 [DEBUG] org.apache.http.wire  -  << "[0xfe][0xca][0xc0][0x6][0x15][0xc1][0xbf][0x1c]!n[0xc6][0x99]2[0xc6][0x4][0x1e]h [0xdb]q[0xd2];[0xa1][0xbd]P[0xb5][0xb1][0x80][0x81]m[0x94][0xaa][0xeb][0x82][0x99][0xc0][0xc3][0xc3]@` [0xe1][0xbc]y[0xe4][0xa4]`[0x0][0x7]T[0x14][0xf0][0xd0][0xa9][0xf6][0xd5];W[0x97][0x16]3~r[0xc1]C[0xb5][0x81][0xb3]{[0x8f][[0xc]T[0xdd]T[0xf5][0x10]UI\F[0x9],[0x98][0xa3]Pu[0x8b][0xe6][0xd6][0xee][0xfa][0x16]Nf[0xa2]][0xcf][0xb4][0xd0][0xa1]$[0xaa]6[0xb3]H[0xac][0x3][0xef][0xa7][0xbf]3[0xe4][0xd3][0x98][0xba][0x80]Y[0x95][0xfa][0x8e]Jf.[0xbf][0x94]7[0xb3]R[0x5][0x3]}X[0xc1][0xcc][0xff][0x18]W[0xe3][0xd7][0x19][0xf1][0xf9];s[0x81][0xf0]-[0xb6][0x19]K[0xe8]x[0xf6][0xbd][0x9e][0xbe][0x0]]zu[0xb8][0x1c][0x2][0x0][0x0]"
+2019-08-11 10:15:12,169 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:12,172 [DEBUG] org.apache.http.wire  -  << "0[\r][\n]"
+2019-08-11 10:15:12,172 [DEBUG] org.apache.http.wire  -  << "[\r][\n]"
+2019-08-11 10:15:12,172 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4cdb8504
+2019-08-11 10:15:12,172 [DEBUG] org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
